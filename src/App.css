@@ -1,0 +1,147 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.App{
+  width: 100vh;
+
+}
+
+.App .displayBlog{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 150px 0;
+}
+
+
+
+
+
+.FormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(169, 190, 206);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+form .title-container{
+    width: 700px;
+    height: 500px;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+form input{
+    width: 170px;
+    height: 30px;
+    margin:10px 0;
+    border: none;
+    
+}
+
+form textarea{
+width: 500px;
+height: 200px;
+}
+
+form label{
+    color:white;
+}
+form button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+     background-color: rgb(71, 105, 135);
+    color:white;
+    border:none;
+    cursor: pointer;
+     box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+}
+
+.FilterBy{
+  width: 100px;
+}
+
+.displayEditField{
+  width: 400px;
+  height: 500px;
+  background-color: rgb(199, 214, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:40%;
+  left:38%;
+ border-radius: 10px;
+}
+.displayEditField h1{
+  padding-top: 20px;
+}
+
+.displayEditField .inputHolder{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.displayEditField .editText{
+  width: 250px;
+  height: 30px;
+  margin:10px 0;
+  padding-left:10px;
+}
+
+.displayEditField .areatext{
+   width: 290px;
+  height: 140px;
+}
+
+
+.savebtn{
+  font-size: 20px;
+  padding: 5px 0;
+  background: transparent;
+  border: none;
+  width: 50px;
+  color:green;
+  cursor: pointer;
+}
+
+.closebtn{
+  font-size: 20px;
+  padding: 5px 0;
+   background: transparent;border: none;
+  width: 50px;
+  color:red;
+  font-weight: 900;
+  cursor: pointer;
+}

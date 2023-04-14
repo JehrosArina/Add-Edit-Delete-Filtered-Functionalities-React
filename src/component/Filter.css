@@ -1,0 +1,63 @@
+.containerSelect{
+    width: 100vw;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    margin:20px 0;
+    
+}
+
+
+
+.DisplayResult{
+   width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.DisplayResult h1{
+    color: rgb(113, 109, 109)
+}
+
+
+.containerFilter{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayfilter{
+     background-color: rgb(169, 190, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    width: 450px;
+    height: 300px;   
+    border-radius: 5px;
+}
+.autorAndDate{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.displayfilter h1{
+    padding-top: 20px;
+}
+
+.displayfilter p{
+color:white;
+}
+.contentdisplay{
+    padding-top: 20px;
+}

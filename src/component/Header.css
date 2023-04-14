@@ -1,0 +1,25 @@
+
+.Container{
+   width: 95vw;
+    height: 50px;
+    background-color: rgb(33, 32, 32);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Container nav {
+     width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.Container nav a {
+    text-decoration: none;
+    color :white;
+    font-weight: 600;
+}
